@@ -8,7 +8,7 @@ import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { signOut } from 'firebase/auth';
 import _ from 'lodash';
 
-import { io } from 'socket.io-client';
+
 
 const socket = io(process.env.REACT_APP_BACKEND_URL || 'http://localhost:5000', {
   reconnection: true,
